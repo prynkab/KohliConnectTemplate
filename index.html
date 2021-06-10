@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohli Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+            <img src="image/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Welcome to Kohli Connect</h2>
+                <h4>Kohli Connect is comprised of engineering, sales, marketing, design and support professional. We are best known for Digital Marketting solutions. Our services are reliable and trusteworthy.</h4>
+                <button type="button">Know More <img src="image/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="image/banner.jpg" class="banner">
+                <div class="color-box"></div>
+            </div>
+        </div>
+    </div>
+    <h1>Services</h1>
+    <div class="container-2">
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>01</h2>
+                <h3>SMS Marketing</h3>
+                <p>Connect to your customers by by our SMS Marketting Service</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>02</h2>
+                <h3>Email Marketing</h3>
+                <p>Experience our powerful Email Marketing Tool with Lots of Amazing Features</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>03</h2>
+                <h3>IVR System</h3>
+                <p>Manage your business calls seamlessly with our comprehensive IVR service.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>04</h2>
+                <h3>Missed Call System</h3>
+                <p>Connect to your customers by just one missed call.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>05</h2>
+                <h3>Social Media Marketing</h3>
+                <p>Avail our social media promotion service for any of the social media platforms.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+                <h2>06</h2>
+                <h3>QR Code Generator</h3>
+                <p>Genearte QR code for you files, images, websites etc</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList=document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

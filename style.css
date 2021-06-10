@@ -9,6 +9,19 @@
 body{
     min-height: 1rem;
 }
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+h1::after{
+    content: '';
+    width: 18%;
+    height:10px;
+    background: linear-gradient(#fb5283,#ff3527);
+    position: absolute;
+    left: 41%;
+    top: 100%;
+}
 .container{
     width: 100%;
     min-height: 100vh;

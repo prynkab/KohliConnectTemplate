@@ -186,7 +186,6 @@ button:hover{
         background: linear-gradient(#fb5283,#ff3527);
         position: absolute;
         top: 54px;
-        left: 40px;
         z-index: 2;
     }
     nav ul li{

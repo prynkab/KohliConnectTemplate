@@ -231,6 +231,15 @@ button:hover{
     .col-1 h4{
         font-size: 15px;
     }
+    h1::after{
+        content: '';
+        width: 45%;
+        height:10px;
+        background: linear-gradient(#fb5283,#ff3527);
+        position: absolute;
+        left: 28%;
+        top: 95%;
+    }
 }
 
 .container-2{
